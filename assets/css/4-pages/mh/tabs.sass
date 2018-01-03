@@ -1,130 +1,14 @@
-.tabs 
-    margin: 5px
-    width: 100%
-
-
-.tabs-content 
-    color: #4a5257
-
-
-/* Tabs */
-
-.tabs-nav 
-    overflow: hidden
-
-
-.tabs-nav-items 
-    margin: 0
-    padding: 0
-    list-style: none
-
-.tabs-nav-items:before,
-.tabs-nav-items:after 
-    content: " "
-    display: table
-
-
-.tabs-nav-items:after 
-    clear: both
-
-
-.tabs-nav-item 
-    float: left
-    position: relative
-    width: 25%
-    padding: 0
-    cursor: pointer
-    border-top: 3px solid #a2da33
-
-
-.tabs-nav-item:last-of-type 
-    margin-right: 0
-
-
-.tabs-nav-item::before 
-    content: ''
-    position: absolute
-    display: block
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    background-color: #fff
-    border-radius: 3px 3px 0 0
-    -webkit-transform: translate(0, 100%)
-    transform: translate(0, 100%)
-    transition-property: transform
-
-
-.tabs-nav-btn 
-    position: relative
-    display: block
-    outline: 0 none
-    text-decoration: none
-    padding: 13px 0
-    color: #a2da33
-    font-family: segoe ui,Arial,sans-serif
-    font-size: 14px 
-    font-weight: 400
-    letter-spacing: 1.5px
-    text-align: center
-    text-overflow: ellipsis
-    white-space: nowrap
-    transition-property: color
-
-
-.tabs-nav-item::before,
-.tabs-nav-btn 
-    transition-duration: 0.2s
-    transition-timing-function: cubic-bezier(0.7,0,0.3,1)
-
-
-.tabs-content 
-    border-top: 0
-    background-color: #fff
-
-.tabs-content-item 
-    display: none
-    padding: 20px 0
-
-
-.tabs-nav-item:hover .tabs-nav-btn 
-    color: #3498db
-
-
-.active-tab-nav-item,
-.active-tab-nav-item:hover 
-    cursor: default
-
-
-.active-tab-nav-item:hover .tabs-nav-btn 
-    color: #26a146
-
-
-.active-tab-nav-item::before 
-    -webkit-transform: translate(0, 0)
-    transform: translate(0, 0)
-
-
-.active-tab-nav-item .tabs-nav-btn 
-    cursor: default
-    color: #26a146
-    border-top: 3px solid #26a146
-
-
-.active-tab-content-item 
-    display: block
-/* Nav Tabs MA */
+/* Nav Tabs MH */
 .tabs-box
     width: 100%
     height: auto
     border-left: 1px solid lightgray
     border-right: 1px solid lightgray
     border-bottom: 1px solid lightgray
-.tabs-box ul
+.tabs-box ul.ul-mh
     +display(flex)
     padding: 0    
-.tabs-box ul li
+.tabs-box ul.ul-mh li.li-mh
     margin: 0
     padding: 5px
     width: 25%
@@ -136,7 +20,7 @@
     cursor: pointer
     border-top: 4px solid #a2da33  
 
-.tabs-box ul li.tab-active
+.tabs-box ul.ul-mh li.li-mh.tab-active
     color: #26a146
     border-top: 4px solid #26a146
 .tab-hide
@@ -145,3 +29,28 @@
     display: block
 p.nav-title 
     margin-bottom: 0px
+/* Nav Tabs MP */
+.tabs-box-mp
+    width: 100%
+    height: auto
+    border-left: 1px solid lightgray
+    border-right: 1px solid lightgray
+    border-bottom: 1px solid lightgray
+.tabs-box-mp ul
+    +display(flex)
+    padding: 0    
+.tabs-box-mp ul li
+    margin: 0
+    padding: 5px
+    width: 34%
+    color: #a2da33  
+    margin-bottom: 0px
+    box-sizing: border-box
+    text-align: center
+    list-style: none
+    cursor: pointer
+    border-top: 4px solid #a2da33  
+
+.tabs-box-mp ul li.tab-active
+    color: #26a146
+    border-top: 4px solid #26a146

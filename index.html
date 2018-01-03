@@ -2,15 +2,17 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=dge">
-    <title>Member Area - 1</title>
-    <link rel="shortcut icon" type="image/png" href="">
-    <link href="assets/css/1-tools/aos.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="assets/css/1-tools/font-awesome/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/1-tools/bootstrap/bootstrap.min.css">   
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Member Area - Home</title>
+    <link rel="stylesheet" href="./assets/css/1-tools/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/1-tools/bootstrap/bootstrap.min.css">   
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/1-tools/froala_editor.pkgd.min.css">
+    <link rel="stylesheet" href="./assets/css/1-tools/froala_editor.min.css">
+    <link rel="stylesheet" href="./assets/css/1-tools/gray.min.css">
 </head>
 
 <body>
@@ -323,17 +325,17 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="tabs-box">
-                                                <ul>
-                                                    <li id="tab-one" class="tab-active">
+                                                <ul class="ul-mh">
+                                                    <li id="tab-one" class="li-mh tab-active">
                                                         <p class="nav-title">What's New With You</p>
                                                     </li>
-                                                    <li id="tab-two">
+                                                    <li id="tab-two" class="li-mh">
                                                         <p class="nav-title">Live Trading</p>
                                                     </li>
-                                                    <li id="tab-three">
+                                                    <li id="tab-three" class="li-mh">
                                                         <p class="nav-title">Share Article</p>
                                                     </li>
-                                                    <li id="tab-four">
+                                                    <li id="tab-four" class="li-mh">
                                                         <p class="nav-title">Share Analysis</p>
                                                     </li>
                                                 </ul>
@@ -371,13 +373,245 @@
                                                         </div>
                                                     </div>
                                                     <div id="tab-two-content-box" class="tab-hide">
-                                                        <p>Hic saepe numquam obcaecati labore, et ea accusantium cupiditate quibusdam, eligendi excepturi sunt, commodi nulla impedit illo sed corporis quis dolores doloremque voluptas quae.</p>
+                                                        <div class="live-tab-content">
+                                                            <div class="lt-tab box">
+                                                                <table class="table table-mh">
+                                                                  <div class="share-ico-table">
+                                                                      <img src="./assets/img/icon/share-table-wht.png" alt="" class="img-fluid">
+                                                                  </div>
+                                                                  <tbody>
+                                                                    <tr class="lt-tr-flex">
+                                                                      <td class="lt-flex">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">EURUSD</p>
+                                                                              <p class="eur num">1.2879</p>
+                                                                          </div>
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">Buy</p>
+                                                                              <p class="eur num"><i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+                                                                          </div>
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">0.10</p>
+                                                                              <p class="eur num">1.2879</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td class="lt-common"><p class="lt-com-txt">1.20</p></td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                  <tbody>
+                                                                    <tr class="lt-tr-flex">
+                                                                      <td colspan="2" class="lt-common-mid"><p class="tl-ltr-date">2017.11.14 10:09:08</p></td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                  <tbody>
+                                                                    <tr class="lt-tr-flex tr-border">
+                                                                      <td class="lt-flex">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">S/L</p>
+                                                                          </div>
+
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">0.00000</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td class="lt-flex-no-right">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">S/L</p>
+                                                                          </div>
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">0.00000</p>
+                                                                          </div>
+                                                                      </td>
+                                                                    </tr>
+                                                                    <tr class="lt-tr-flex tr-border">
+                                                                      <td class="lt-flex">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">T/P</p>
+                                                                          </div>
+
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">0.00000</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td class="lt-flex-no-right">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">T/P</p>
+                                                                          </div>
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">0.00000</p>
+                                                                          </div>
+                                                                      </td>
+                                                                    </tr>
+                                                                    <tr class="lt-tr-flex tr-border">
+                                                                      <td class="lt-flex">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">Ticket</p>
+                                                                          </div>
+
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">12345</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td class="lt-flex-no-right">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">Ticket</p>
+                                                                          </div>
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">12345</p>
+                                                                          </div>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="lt-tab box">
+                                                                <table class="table table-mh">
+                                                                  <div class="share-ico-table">
+                                                                      <img src="./assets/img/icon/share-table-wht.png" alt="" class="img-fluid">
+                                                                  </div>
+                                                                  <tbody>
+                                                                    <tr class="lt-tr-flex">
+                                                                      <td class="lt-flex">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">EURUSD</p>
+                                                                              <p class="eur num">1.2879</p>
+                                                                          </div>
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">Buy</p>
+                                                                              <p class="eur num"><i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+                                                                          </div>
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">0.10</p>
+                                                                              <p class="eur num">1.2879</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td class="lt-common"><p class="lt-com-txt">1.20</p></td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                  <tbody>
+                                                                    <tr class="lt-tr-flex">
+                                                                      <td colspan="2" class="lt-common-mid"><p class="tl-ltr-date">2017.11.14 10:09:08</p></td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                  <tbody>
+                                                                    <tr class="lt-tr-flex tr-border">
+                                                                      <td class="lt-flex">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">S/L</p>
+                                                                          </div>
+
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">0.00000</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td class="lt-flex-no-right">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">S/L</p>
+                                                                          </div>
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">0.00000</p>
+                                                                          </div>
+                                                                      </td>
+                                                                    </tr>
+                                                                    <tr class="lt-tr-flex tr-border">
+                                                                      <td class="lt-flex">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">T/P</p>
+                                                                          </div>
+
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">0.00000</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td class="lt-flex-no-right">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">T/P</p>
+                                                                          </div>
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">0.00000</p>
+                                                                          </div>
+                                                                      </td>
+                                                                    </tr>
+                                                                    <tr class="lt-tr-flex tr-border">
+                                                                      <td class="lt-flex">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">Ticket</p>
+                                                                          </div>
+
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">12345</p>
+                                                                          </div>
+                                                                      </td>
+                                                                      <td class="lt-flex-no-right">
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">Ticket</p>
+                                                                          </div>
+                                                                          <div class="lt-eur">
+                                                                              <p class="lt-eur-type">12345</p>
+                                                                          </div>
+                                                                      </td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                        <div class="btn-ma-lt">
+                                                          <button type="button" class="btn btn-success btn-ma-post">Post</button>
+                                                        </div>
                                                     </div>
                                                     <div id="tab-three-content-box" class="tab-hide">
-                                                        <p>Laudantium tenetur officia doloremque odio, tempore perspiciatis magni, velit libero aut voluptatem? Pariatur reiciendis eos eveniet at tempore aliquid, totam provident sed unde ab quo hic, ex dolore eaque exercitationem voluptatibus quae sapiente dolor placeat. Quasi, laborum ad similique beatae nisi ipsam debitis!</p>
+                                                     <div class="share-wrap">
+                                                         <form>
+                                                          <div class="form-row">
+                                                            <div class="form-group col-md-6">
+                                                              <label for="inputEmail4">Title</label>
+                                                              <input type="tile" class="form-control" id="inputEmail4" placeholder="Title">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                               <label for="inputState">Category</label>
+                                                                  <select id="inputState" class="form-control">
+                                                                    <option selected>Tehcnical Analsyis</option>
+                                                                    <option>Tehcnical Analsyis</option>
+                                                                    <option>Tehcnical Analsyis</option>
+                                                                    <option>Tehcnical Analsyis</option>
+                                                                  </select>
+                                                            </div>
+                                                          </div>
+                                                         </form>
+                                                         <div id="eg-gray-theme">
+                                                            Testing
+                                                         </div>
+                                                     </div>
+                                                     <div class="btn-ma-lt">
+                                                      <button type="button" class="btn btn-success btn-ma-post">Post</button>
+                                                     </div>
                                                     </div>
                                                     <div id="tab-four-content-box" class="tab-hide">
-                                                        <p>Odit ipsa ab accusamus veniam mollitia consequuntur qui officia earum quaerat voluptas praesentium aperiam, amet cum sit iste atque quos dolorem. Hic saepe numquam obcaecati labore, et ea accusantium cupiditate quibusdam, eligendi excepturi sunt, commodi nulla impedit illo sed corporis quis dolores doloremque voluptas quae.</p>
+                                                        <div class="share-wrap">
+                                                         <form>
+                                                          <div class="form-row">
+                                                            <div class="form-group col-md-6">
+                                                              <label for="inputEmail4">Title</label>
+                                                              <input type="tile" class="form-control" id="inputEmail4" placeholder="Title">
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                               <label for="inputState">Category</label>
+                                                                  <select id="inputState" class="form-control">
+                                                                    <option selected>Tehcnical Analsyis</option>
+                                                                    <option>Tehcnical Analsyis</option>
+                                                                    <option>Tehcnical Analsyis</option>
+                                                                    <option>Tehcnical Analsyis</option>
+                                                                  </select>
+                                                            </div>
+                                                          </div>
+                                                         </form>
+                                                         <div id="eg-gray-theme">
+                                                            Testing
+                                                         </div>
+                                                        </div>
+                                                        <div class="btn-ma-lt">
+                                                          <button type="button" class="btn btn-success btn-ma-post">Post</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1014,10 +1248,11 @@
         </section>
     </main>  
     
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="./assets/js/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/functions.js" type="text/javascript"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>   
+    <script src="./assets/js/froala_editor.pkgd.min.js"></script> 
+    <script src="./assets/js/functions.js" type="text/javascript"></script>
 </body>
 
 </html>
